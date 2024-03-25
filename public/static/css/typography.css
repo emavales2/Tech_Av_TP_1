@@ -1,0 +1,57 @@
+
+/* ----- * TITLES + TEXT * ----- */
+
+h1 {
+    font-size: 4rem;
+    color: #eed4b0;
+    margin-block-end: .1em;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-block-start: .1em;
+    color: #c98447;
+}
+
+h4 {
+    font-size: .85rem;
+    color: #eed4b0;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, p {
+    text-align: center;
+}
+
+.sub_t {
+    font-style: italic;
+}
+
+p {
+    color: #eed4b0;
+    font-family: sans-serif;
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: .025rem;
+    margin: 0;
+}
+
+/* ---- * Title inside main image of park view * ---- */
+.park_title {
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the text horizontally and vertically */
+    margin: 0; /* Remove default margin */
+    color: white; /* Set text color */
+    z-index: 2; /* Ensure the text appears above the image */
+    
+    opacity: 1; /* Set initial opacity to fully visible */
+    transition: opacity 0.5s ease; 
+}
+
+picture:hover + .park_title {
+    opacity: 0 !important; 
+}

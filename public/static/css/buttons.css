@@ -1,0 +1,27 @@
+
+/* ----- * BUTTON * ----- */
+
+.btn {
+    padding: 10px;
+    border-radius: 0;
+    border: 2px solid #eed4b0;
+    background: transparent;
+    /* margin: 40px; */
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #edd4b0;
+}
+
+.btn h4 {
+    color: #eed4b0;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.btn:hover h4 {
+    color: #003131;  
+    font-weight: bold; 
+    letter-spacing: 1px;
+}

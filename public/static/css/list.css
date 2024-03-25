@@ -1,0 +1,13 @@
+
+/* ----- * LISTS * ----- */
+
+ol li {
+    /* list-style: none; */
+    color: #c98447;
+    padding-left: 15px;
+}
+
+ol li:hover {
+    cursor: pointer;
+    color: #eed4b0;
+}

@@ -1,0 +1,25 @@
+
+/* ----- * FORMS * ----- */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    border: 1px solid;
+    padding: 60px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+input {
+    /* min-height: 30px; */
+    padding: 10px;
+}
+
+.user_input {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 40px;
+}

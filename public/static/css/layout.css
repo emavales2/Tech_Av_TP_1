@@ -1,0 +1,32 @@
+
+/* ----- * LAYOUT * ----- */
+
+.cols {
+    display: flex;
+    gap: 10px;
+    padding: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.two_col_cont {
+    width: 45%;
+}
+
+.flex_col {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    max-width: 1200px;
+    align-items: center;
+}
+
+.col_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1000px;
+    gap: 5px 40px;
+    padding: 10px 15px;
+    padding-left: 50px;
+}

@@ -1,0 +1,26 @@
+
+/* ----- * ACTIVITIES CARD * ----- */
+
+.card {
+    background: #eed4b0;
+    color: #895629;
+    /* padding: 40px; */
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    border-radius: 10px;
+    border: 4px solid #895629;
+}
+
+.card header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: #895629;
+    color: #eed4b0;
+    padding: 15px 30px;
+}
+
+.card .cols {
+    padding: 0;
+}
